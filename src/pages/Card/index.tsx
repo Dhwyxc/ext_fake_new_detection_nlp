@@ -1,7 +1,7 @@
 import { Card, Grid, Text, Link } from '@nextui-org/react'
 import React from 'react'
 
-const index = ({ title, desc, link }: any): any => {
+const index = ({ title, link }: any): any => {
   return (
     <Card css={{ p: '$6', mw: '400px', mb: 10 }}>
       <Card.Header>
